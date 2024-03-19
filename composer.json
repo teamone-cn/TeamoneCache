@@ -1,0 +1,31 @@
+{
+    "name": "teamone/cache",
+    "description": "Teamone Cache",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Teamone\\Cache\\": "src/",
+            "Teamone\\CacheTest\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "shijie.zhu",
+            "email": "jukit.lucky@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "symfony/var-dumper": "^6.4",
+        "phpunit/phpunit": "^10.5"
+    },
+    "require": {
+        "psr/simple-cache": "^3.0",
+        "teamone/redis": "^1.0",
+        "ext-redis": "*"
+    },
+    "scripts": {
+        "phpunit": "phpunit"
+    }
+}
