@@ -22,8 +22,7 @@
     },
     "require": {
         "teamone/redis": "^1.0",
-        "ext-redis": "*",
-        "psr/simple-cache": "2.0.0"
+        "ext-redis": "*"
     },
     "scripts": {
         "phpunit": "phpunit"
